@@ -1,3 +1,7 @@
+'''
+after giving question number for which we need summary it loads data from activity_responses.xls file and saves summary to 
+summary_output.xls file
+'''
 from gensim.summarization import summarize 
 import logging 
 import pandas as pd
