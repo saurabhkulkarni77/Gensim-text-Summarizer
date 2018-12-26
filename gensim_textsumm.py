@@ -6,9 +6,8 @@ from gensim.summarization import summarize
 import logging 
 import pandas as pd
 import re
-import csv
 import os
-import nltk
+
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO) 
 file_name = 'activity_responses.xls'
 question_number = input('Please share the question number you want summary for [e.g, Q1 for question1] please use uppercase Q : ')
